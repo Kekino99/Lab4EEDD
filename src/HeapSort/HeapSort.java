@@ -86,7 +86,7 @@ public class HeapSort {
                 } else if(hasLeft(index)){
                     maxOf = left(index);
                 } else {
-                    maxOf=right(index);
+                    maxOf= right(index);
                 }
                 swap(index, maxOf);
                 index= maxOf;
@@ -110,7 +110,7 @@ public class HeapSort {
     }
 
     public static <E> void sort(ArrayList<E> list, Comparator<? super E> cmp) {
-        Heap<E> order = new Heap<E>(list, cmp);
+        Heap<E> order = new Heap<>(list, cmp);
 
         for (int i = 0; i < list.size(); i++) {
             order.add();
