@@ -56,7 +56,7 @@ public class HeapSort {
             return index != 0;
         }
 
-        /* Heap Size must be lesser than ArrayList.size when called.
+        /* Heap Size must be lesser than ArrayList.size() when called.
          *
          */
         private void add() {
@@ -70,7 +70,7 @@ public class HeapSort {
             rootAtMax();
         }
 
-        void validatePosition(int index) {
+        private void validatePosition(int index) {
             while (hasParent(index) && comparator.compare(elements.get(index), elements.get(parent(index))) > 0) {
                 swap(index, parent(index));
                 index = parent(index);
@@ -109,6 +109,15 @@ public class HeapSort {
 
     }
 
+    /**
+     * It sorts an array using HeapSort.
+     * @param list the list that will be sorted. It sorts it in the same ArrayList that passed, overwritetting it
+     * @param cmp passes the comparator that will be used to sort the ArrayList. It will sort as a0<=a1<=a2...<=an. If
+     *            you want it in the reverse way, just use methods provided by the Comparator or make another
+     *            Comparator.
+     * @param <E> generic used to make anything sortable. As long as you can make a comparator that supers the elements
+     *           of ArrayList it will work.
+     */
     public static <E> void sort(ArrayList<E> list, Comparator<? super E> cmp) {
         Heap<E> order = new Heap<>(list, cmp);
 
@@ -121,6 +130,12 @@ public class HeapSort {
         }
     }
 
+    /**
+     * It sorts an ArrayList using HeapSort
+     * @param list the list that will be sorted. Its elements needs to extend Comparable<? super E>
+     * @param <E> Generic used to make anything that extends some class Comparable sortable. Internally, it will call
+     *           the sort method using Comparator.
+     */
     public static <E extends Comparable<? super E>> void sort(ArrayList<E> list) {
         sort(list, Comparator.naturalOrder());
     }
