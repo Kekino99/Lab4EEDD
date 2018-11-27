@@ -41,6 +41,5 @@ public class HeapSortTest {
         FisherYates.fisherYates(toSort);
         HeapSort.sort(toSort, Comparator.reverseOrder());
         assertEquals(sorted, toSort);
-
     }
 }

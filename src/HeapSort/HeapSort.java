@@ -1,3 +1,4 @@
+
 package HeapSort;
 
 import java.util.ArrayList;
@@ -23,11 +24,7 @@ public class HeapSort {
          * If index doesn't makes sense, then an unwanted index could be returned
          */
         private static int parent(int index) {
-            if (index % 2 == 0) {
-                return (index - 2) / 2;
-            } else {
-                return (index - 1) / 2;
-            }
+            return (index - 1) / 2;
         }
 
         private static int left(int index) {
@@ -80,21 +77,24 @@ public class HeapSort {
         private void rootAtMax() {
             int index = 0;
             while (hasGreaterChild(index)) {
-                int maxOf;
-                if (hasLeft(index) && hasRight(index)) {
-                    maxOf = maxOf(left(index), right(index));
-                } else if(hasLeft(index)){
-                    maxOf = left(index);
-                } else {
-                    maxOf= right(index);
-                }
+                int maxOf = greaterChild(index);
                 swap(index, maxOf);
-                index= maxOf;
+                index = maxOf;
+            }
+        }
+
+        private int greaterChild(int index) {
+            if (hasLeft(index) && hasRight(index)) {
+                return maxOf(left(index), right(index));
+            } else if (hasLeft(index)) {
+                return left(index);
+            } else {
+                return right(index);
             }
         }
 
         private int maxOf(int index1, int index2) {
-            if(comparator.compare(elements.get(index1), elements.get(index2))<0){
+            if (comparator.compare(elements.get(index1), elements.get(index2)) < 0) {
                 return index2;
             } else {
                 return index1;
@@ -111,12 +111,13 @@ public class HeapSort {
 
     /**
      * It sorts an array using HeapSort.
+     *
      * @param list the list that will be sorted. It sorts it in the same ArrayList that passed, overwritetting it
-     * @param cmp passes the comparator that will be used to sort the ArrayList. It will sort as a0<=a1<=a2...<=an. If
-     *            you want it in the reverse way, just use methods provided by the Comparator or make another
-     *            Comparator.
-     * @param <E> generic used to make anything sortable. As long as you can make a comparator that supers the elements
-     *           of ArrayList it will work.
+     * @param cmp  passes the comparator that will be used to sort the ArrayList. It will sort as a0<=a1<=a2...<=an. If
+     *             you want it in the reverse way, just use methods provided by the Comparator or make another
+     *             Comparator.
+     * @param <E>  generic used to make anything sortable. As long as you can make a comparator that supers the elements
+     *             of ArrayList it will work.
      */
     public static <E> void sort(ArrayList<E> list, Comparator<? super E> cmp) {
         Heap<E> order = new Heap<>(list, cmp);
@@ -132,12 +133,14 @@ public class HeapSort {
 
     /**
      * It sorts an ArrayList using HeapSort
+     *
      * @param list the list that will be sorted. Its elements needs to extend Comparable<? super E>
-     * @param <E> Generic used to make anything that extends some class Comparable sortable. Internally, it will call
-     *           the sort method using Comparator.
+     * @param <E>  Generic used to make anything that extends some class Comparable sortable. Internally, it will call
+     *             the sort method using Comparator.
      */
     public static <E extends Comparable<? super E>> void sort(ArrayList<E> list) {
         sort(list, Comparator.naturalOrder());
+        //If prefered with a lambda function
+        //sort(list, (a, b)-> a.compareTo(B))
     }
 }
-

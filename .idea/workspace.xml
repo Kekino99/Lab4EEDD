@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d979826a-1a18-491e-b628-c8aeb20a124c" name="Default Changelist" comment="" />
+    <list default="true" id="d979826a-1a18-491e-b628-c8aeb20a124c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/HeapSort/HeapSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/HeapSort/HeapSortTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HeapSort/HeapSort/HeapSort$Heap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HeapSort/HeapSort/HeapSort$Heap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HeapSort/HeapSort/HeapSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HeapSort/HeapSort/HeapSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/HeapSort/HeapSort/HeapSortTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/HeapSort/HeapSort/HeapSortTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HeapSort/HeapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HeapSort/HeapSort.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,21 +16,26 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/HeapSort/HeapSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="102" lean-forward="true" selection-start-line="102" selection-end-line="102" />
+            <state relative-caret-position="359">
+              <caret line="91" column="23" selection-start-line="91" selection-start-column="23" selection-end-line="91" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#872#873#0" expanded="true" />
+                <element signature="e#918#919#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Tests/HeapSort/HeapSortTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="45" column="1" lean-forward="true" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
+            <state relative-caret-position="135">
+              <caret line="14" column="7" lean-forward="true" selection-start-line="4" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -37,6 +49,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Tests/HeapSort/HeapSortTest.java" />
+        <option value="$PROJECT_DIR$/src/HeapSort/HeapSort.java" />
       </list>
     </option>
   </component>
@@ -51,7 +64,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -85,7 +98,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -93,7 +106,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542974305742" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543338306894" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -180,37 +193,56 @@
     <history-entry file="HeapSortTest_sort - 2018.11.23 at 12h 38m 08s.xml">
       <configuration name="HeapSortTest.sort" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="HeapSortTest - 2018.11.26 at 17h 43m 40s.xml">
+      <configuration name="HeapSortTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HeapSortTest_sort - 2018.11.26 at 18h 54m 16s.xml">
+      <configuration name="HeapSortTest.sort" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HeapSortTest_sort - 2018.11.26 at 18h 55m 27s.xml">
+      <configuration name="HeapSortTest.sort" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HeapSortTest_sort - 2018.11.26 at 18h 55m 34s.xml">
+      <configuration name="HeapSortTest.sort" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HeapSortTest_sort - 2018.11.26 at 18h 56m 15s.xml">
+      <configuration name="HeapSortTest.sort" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HeapSortTest - 2018.11.27 at 18h 00m 14s.xml">
+      <configuration name="HeapSortTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Learn" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18705036" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19590482" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Learn" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32937366" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4997233" visible="true" weight="0.32937366" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5002767" side_tool="true" weight="0.32937366" />
+      <window_info anchor="bottom" id="Messages" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
@@ -218,17 +250,22 @@
     <option name="LAST_COMMIT_MESSAGE" value="Afegit fitxers que feien petar en fer el remote" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Tests/HeapSort/HeapSortTest.java">
+    <entry file="file://$PROJECT_DIR$/src/HeapSort/HeapSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="45" column="1" lean-forward="true" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
+        <state relative-caret-position="359">
+          <caret line="91" column="23" selection-start-line="91" selection-start-column="23" selection-end-line="91" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#872#873#0" expanded="true" />
+            <element signature="e#918#919#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/HeapSort/HeapSort.java">
+    <entry file="file://$PROJECT_DIR$/Tests/HeapSort/HeapSortTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="102" lean-forward="true" selection-start-line="102" selection-end-line="102" />
+        <state relative-caret-position="135">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="4" selection-end-line="14" />
         </state>
       </provider>
     </entry>
