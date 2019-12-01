@@ -53,10 +53,9 @@ public class HeapSort {
             return index != 0;
         }
 
-        /* Heap Size must be lesser than ArrayList.size() when called.
-         *
-         */
+        
         private void add() {
+            Assert.isTrue(heapsize < elements.size());
             heapSize++;
             validatePosition(heapSize - 1);
         }
